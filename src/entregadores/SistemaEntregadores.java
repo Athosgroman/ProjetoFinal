@@ -38,8 +38,11 @@ public class SistemaEntregadores {
 				break;
 				
 			case 2:
-				//Alterar a avaliação de um entregador pelo nome
-				FuncoesEntregadores.alterarAvaliacao(nomesEntregadores, avaliacoesEntregadores, novaAvaliacao);
+				//Alterar a avaliação de um entregador pelo nome  --- Alteramos a função
+				
+
+				FuncoesEntregadores.alterarAvaliacao(novonomeEntregador, nomesEntregadores, avaliacoesEntregadores, novaAvaliacao);
+				
 				break;
 				
 			case 3:

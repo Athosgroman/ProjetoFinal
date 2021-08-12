@@ -6,7 +6,7 @@ public class SistemaAgendamento {
 
 	public static void main(String[] args) {
 		Scanner leitor = new Scanner(System.in);
-		String[] agendamentos = new String[QUANTIDADE_AGENDAMENTOS];
+		String[] agendamentos = new String[3];
 		int opcao = 0;
 		String usuario, senha;
 		System.out.println("Para entrar no sistema você deve informar seu usuário e sua senha");

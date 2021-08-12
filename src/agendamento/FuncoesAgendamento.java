@@ -11,5 +11,20 @@ public class FuncoesAgendamento {
         System.out.println("4 - Desligar programa");
 
     }
+	
+	public static boolean login(String nome, String senha) {
+
+		Scanner pega = new Scanner(System.in);
+
+		String nomeLogin = "java";
+		String senhaLogin = "java";
+
+		if(nomeLogin.equalsIgnoreCase(nome) && senhaLogin.equalsIgnoreCase("senha")) {
+		return true;
+		}
+		else {
+		return false;
+
+		}
 
 }
